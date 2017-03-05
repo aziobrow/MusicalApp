@@ -1,0 +1,50 @@
+<resources>
+    <!-- Title for the application-->
+    <string name="app_name">Musical App</string>
+
+    <!--Title for Albums TextView-->
+    <string name="albums_title">My Albums</string>
+
+    <!--Title for Artists TextView-->
+    <string name="artists_title">My Artists</string>
+
+    <!--Title for Songs TextView-->
+    <string name="songs_title">My Songs</string>
+
+    <!--Name of Discover Button-->
+    <string name="discover_button">Discover More Favorites</string>
+
+    <!--Name of Download Button-->
+    <string name="download_button">Download Current Song As Favorite</string>
+
+    <!--Name of Albums Activity-->
+    <string name="title_activity_albums">Albums</string>
+
+    <!--Name of Songs Activity-->
+    <string name="title_activity_songs">Songs</string>
+
+    <!--Name of Artists Activity-->
+    <string name="title_activity_artists">Artists</string>
+
+    <!--Name of Discover Music Activity-->
+    <string name="title_activity_discover_music">DiscoverMusic</string>
+
+    <!--Current Song Detail Explanation-->
+    <string name="song_detail_overview">The app opens to this activity, wherein a random song similar to other songs the user has liked will automatically begin playing. The screen will display the details of the current song playing. I believe I will need the ContentResolver class to retrieve tracks on the device, the MediaPlayer class to play audio, and the MediaController class to control playback. </string>
+
+    <!--Downloads Activity Explanation-->
+    <string name="downloads_overview">This activity shows all recent downloads and download status. Additional details include name and size of file. Downloads will be sorted by date of download. I think I can use the DownloadsManager class to handle the download and download status display. I also think I can continue to use an ArrayList with Collections.sort and comparator to sort completed downloads by date of download.  </string>
+
+    <!--Discover More Favorites Activity Explanation-->
+    <string name="discover_favorites_overview">This activity gives you a list of five songs similar to the one currently playing, which you can click on to switch to.  You can also search a new genre, artist, or song to change the station of currently playing song. I am having a hard time finding technical details for this one. One option I found was jMusic, which is a library of classes that deals with music and sound, including the necessary music data structure for finding similar music.</string>
+
+    <!--Discover My Albums Activity Explanation-->
+    <string name="my_albums_overview">This activity will give you a list of user downloaded songs grouped by albums and sorted alphabetically. I think I could use an ArrayList containing album names, and then use Collections.sort with a comparator to alphabetize. </string>
+
+    <!--Discover My Artists Activity Explanation-->
+    <string name="my_artists_overview">This activity will give you a list of user downloaded songs grouped by artist and sorted alphabetically. I think I could use an ArrayList containing artist names, and then use Collections.sort with a comparator to alphabetize. </string>
+
+    <!--Discover My Songs Activity Explanation-->
+    <string name="my_songs_overview">This activity will give you a list of user downloaded songs alphabetically sorted by song title. I think I could use an ArrayList containing song titles, and then use Collections.sort with a comparator to alphabetize. </string>
+
+</resources>
